@@ -3,8 +3,6 @@ import GoogleMapReact from 'google-map-react';
 
 import FLATS from '../../data/flats.js';
 
-const API_KEY = "AIzaSyBhofOQlyLDWYs5NaDQPQhTN4UdwedIDv4";
-
 const Marker = ({ text }) => <div>{text}</div>;
 
 class MapReact extends Component {
