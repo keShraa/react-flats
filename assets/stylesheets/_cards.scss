@@ -4,12 +4,11 @@
   background-size: cover !important;
   background-position: center;
   color: white;
+  font-weight: bolder;
   position: relative;
   &.active {
     border: 10px solid red;
   }
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2));
-  //                   url('https://raw.githubusercontent.com/lewagon/flats-boilerplate/master/images/flat3.jpg');
 }
 .card-user {
   position: absolute;
@@ -29,9 +28,12 @@
   position: absolute;
   bottom: 10px;
   left: 10px;
+  z-index: 3;
 }
 .card-description h2 {
   font-size: 20px;
+  padding: 3px 8px;
+  background-color: rgba(40, 40, 40, 0.3);
 }
 .card-description p {
   font-size: 14px;
@@ -45,9 +47,9 @@
   right: 0;
   width: 100%;
   z-index: 2;
-  background: black;
+  background: #FAFAFA;
   opacity: 0;
 }
 .card-link:hover {
-  opacity: 0.1;
+  opacity: 0.2;
 }
